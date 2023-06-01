@@ -11,7 +11,7 @@ header section {
     align-items: center;
     height: 100px;
     padding: 20px;
-    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
 }
 
 header ul {
@@ -24,18 +24,20 @@ header ul {
 
 /* Main */
 main {
+    background-color: #E5E5E5;
     display: flex;
     flex-direction: row;
-    width: 100%;
-    padding: 50px 10%;
+    padding: 5em;
     gap: 10px;
     border-radius: 5px;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
 }
 
 .delivery {
     position: relative;
+    width: 490px;
+    height: 350px;
 }
 
 .descripcion {
@@ -58,7 +60,8 @@ main .delivery p {
 }
 
 .podio {  
-    width: 80%;
+    width: 490px;
+    height: 350px;
     display: flex;
     flex-direction: column;  
     gap: 20px;
@@ -75,7 +78,7 @@ main .delivery p {
 .sectionTop {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 30px;
     font-weight: bold;
     align-items: center;  
@@ -99,6 +102,7 @@ footer {
     height: 150px;
     bottom: 0;
     background-color: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
     justify-content: space-between;
     align-items: center;
